@@ -21,7 +21,7 @@ module.exports = {
           600: '#4c48e3',
           700: '#4139c9',
           800: '#3531a2',
-          900: '#2f2e7e', // main color
+          900: '#2D2F7E', // main color
           950: '#1d1b4b',
         },
         secondary: {
@@ -40,6 +40,7 @@ module.exports = {
       },
       fontFamily: {
         primary: ['Roboto'],
+        headings: ['Anybody'],
       },
     },
   },

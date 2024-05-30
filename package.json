@@ -13,8 +13,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2",
-    "vue3-carousel-nuxt": "^1.1.1"
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",

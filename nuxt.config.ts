@@ -10,11 +10,12 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/google-fonts', "vue3-carousel-nuxt"],
+  modules: ['@nuxtjs/google-fonts'],
 
   googleFonts: {
     families: {
-      Roboto: [400, 700],
+      Anybody: [400, 700],
+      Roboto: [300, 400, 700],
     },
   },
 

@@ -1,113 +1,308 @@
-<script>
-const services = [
-  'H2S safety services',
-  'Supplied air trailers',
-  'Breathing apparatus, gas detection',
-  'Fit testing',
-  'Safety supervisor contractors',
-  'Course completions',
-  'Fracking and flowback operations',
-  'Drilling rigs',
-  'Telemetry equipment',
-  'Confined space entry',
-  'High angle rescue',
-]
-</script>
-
 <template>
   <main>
     <section>
-      <div class="relative py-64 lg:py-96">
-        <div class="relative z-50 px-4">
-          <h2 class="mx-auto max-w-96 text-center text-4xl font-bold uppercase text-white lg:text-5xl">
-            SAFEGUARD WHAT MATTERS MOST -- YOUR PEOPLE
-          </h2>
+      <div class="relative py-32 lg:pt-96">
+        <div class="container relative z-50 text-white">
+          <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">
+            Innovative Energy Solutions.<br />Leading the way to a safer Future.
+          </h1>
+          <p class="mb-12 lg:max-w-96">
+            For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
+          </p>
+          <div class="flex gap-6">
+            <a
+              href="#about"
+              class="font-headings block bg-white px-6 py-3 font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
+              >Contact Us</a
+            >
+            <a
+              href="#services"
+              class="font-headings block border border-white bg-transparent px-6 py-3 font-light leading-none text-white transition duration-200 hover:bg-white hover:text-gray-900"
+              >Explore Our Services</a
+            >
+          </div>
         </div>
         <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero.jpg" />
-        <div class="absolute left-0 top-0 z-20 h-full w-full bg-primary-800 opacity-60"></div>
-        <div class="absolute left-0 top-0 z-20 h-full w-full bg-primary-900 opacity-30"></div>
       </div>
     </section>
-    <section>
+    <section id="about">
       <div class="container">
-        <div class="mx-auto mb-6 h-1 w-20 bg-secondary-500"></div>
-        <h2 class="text-center">20+ years of Industrial Safety Experience</h2>
-        <div class="mt-6 flex flex-col gap-8 lg:mt-20 lg:flex-row lg:gap-16">
-          <div class="order-2 lg:order-1 lg:flex-1">
-            <img src="/assets/images/about.jpg" alt="" />
+        <h2>About us</h2>
+        <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+          <p class="text-2xl font-light text-secondary-700 lg:text-3xl">
+            At Cape Energy Group Inc., we are driven by a singular mission - to provide innovative solutions that ensure
+            the wellbeing and success of your team in every environment.
+          </p>
+          <p>
+            Our dedicated team of experts works tirelessly to stay ahead of industry standards, continuously evolving
+            and adapting to meet the ever-changing needs of the energy sector. By leveraging the latest advancements in
+            safety equipment and protocols, we empower your workforce to operate with confidence and peace of mind,
+            knowing that their safety is our top priority.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <details
+          open
+          class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
+        >
+          <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Safety Services</h3></summary>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+            <p>
+              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+            </p>
+            <ul class="list-disc pl-4">
+              <li>H2S Safey Services</li>
+              <li>Breathing Apparatus</li>
+              <li>Gas Detection</li>
+              <li>Preliminary Norms Testing</li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>Fit Testing</li>
+              <li>Employ Safety Supervisors</li>
+              <li>Course Completions</li>
+            </ul>
           </div>
-          <div class="order-1 lg:order-2 lg:mt-6 lg:flex-1">
-            <p class="font-bold">
-              For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
-            </p>
+        </details>
+        <details
+          class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
+        >
+          <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Advanced Equipment and Technology</h3></summary>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
             <p>
-              Cape Energy was founded by Darren and Chris Oilund, with a single purpose:
-              <strong>to protect what is important</strong>. Your workers and employees are your most valuable asset,
-              and Cape Energy Services is here to ensure that your investment in your people stays valuable.
+              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
             </p>
-            <p></p>
+            <ul class="list-disc pl-4">
+              <li>H2S Safey Services</li>
+              <li>Breathing Apparatus</li>
+              <li>Gas Detection</li>
+              <li>Preliminary Norms Testing</li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>Fit Testing</li>
+              <li>Employ Safety Supervisors</li>
+              <li>Course Completions</li>
+            </ul>
+          </div>
+        </details>
+        <details
+          class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
+        >
+          <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Operational Support</h3></summary>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
             <p>
-              As a premier provider of industrial safety services and training, we are dedicated to the well-being of
-              our clients, students, employees, and the communities near our worksites. Our passion for helping others
-              drives our commitment to the safety industry. Trust the experts at Cape Energy Services to ensure your
-              operations comply with all provincial and federal safety regulations, keeping your workers protected on
-              the job.
+              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
             </p>
+            <ul class="list-disc pl-4">
+              <li>H2S Safey Services</li>
+              <li>Breathing Apparatus</li>
+              <li>Gas Detection</li>
+              <li>Preliminary Norms Testing</li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>Fit Testing</li>
+              <li>Employ Safety Supervisors</li>
+              <li>Course Completions</li>
+            </ul>
+          </div>
+        </details>
+        <details
+          class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
+        >
+          <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Specialized Rescue and Entry Services</h3></summary>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+            <p>
+              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+            </p>
+            <ul class="list-disc pl-4">
+              <li>H2S Safey Services</li>
+              <li>Breathing Apparatus</li>
+              <li>Gas Detection</li>
+              <li>Preliminary Norms Testing</li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>Fit Testing</li>
+              <li>Employ Safety Supervisors</li>
+              <li>Course Completions</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+    <section id="industries">
+      <div class="relative py-32 lg:pt-96">
+        <div class="container relative z-50 text-white">
+          <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Industries we serve</h2>
+          <p class="mb-12 lg:mb-24 lg:max-w-[650px]">
+            Providing comprehensive safety and operational support across a diverse range of industries including
+            drilling completions, workovers, plant turnarounds, construction safety, oil and gas production, energy
+            sector, industrial operations, chemical processing, and mining operations.
+          </p>
+          <ul class="list-disc grid-cols-3 pl-4 text-lg lg:grid lg:max-w-[750px]">
+            <li>Drilling Completions</li>
+            <li>Workovers</li>
+            <li>Plant Turnarounds</li>
+            <li>Construction Safety</li>
+            <li>Oil and Gas Production</li>
+            <li>Energy Sector</li>
+            <li>Industrial Operations</li>
+            <li>Chemical Processing</li>
+            <li>Mining Operations</li>
+          </ul>
+        </div>
+        <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/industries.jpg" alt="" />
+      </div>
+    </section>
+    <section id="commitment">
+      <div class="container py-12 lg:py-24">
+        <h2 class="text-4xl font-normal lg:text-6xl">Our commitment</h2>
+        <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+          <div>
+            <p class="lg:mg-16 mb-8 text-2xl font-light text-secondary-700 lg:text-3xl">
+              At Cape Energy Group, our commitment is to deliver unparalleled safety and operational excellence through
+              innovative solutions and top-tier equipment.
+            </p>
+            <p class="text-xl">
+              We prioritize the wellbeing of your team by employing the best talent and utilizing cutting-edge
+              technology to create secure, efficient work environments. Our dedication extends beyond the job site as we
+              actively contribute to community growth and development, embodying our core values of integrity,
+              innovation, and community involvement. Trust Cape Energy Group to safeguard your operations and propel
+              your success.
+            </p>
+          </div>
+          <div>
+            <img src="/assets/images/commitment.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="relative py-24">
+        <div class="container relative z-50 text-white">
+          <div class="mb-12 grid grid-cols-1 gap-8 border-b-2 border-white pb-12 lg:grid-cols-4">
+            <div class="lg:col-span-1">
+              <svg width="200" height="55" viewBox="0 0 200 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2_3)">
+                  <path
+                    d="M78.5361 13.5143C78.0388 9.91054 75.2544 8.0085 71.3762 8.0085C65.4097 8.0085 63.1227 13.314 63.1227 18.6198C63.1227 23.9255 65.4097 29.231 71.3762 29.231C75.7019 29.231 78.188 26.7283 78.5361 22.6239H87.784C87.2869 31.8338 80.5745 37.2395 71.5752 37.2395C60.8354 37.2395 53.8747 28.9806 53.8747 18.6198C53.8747 8.25872 60.8354 -3.8147e-06 71.5752 -3.8147e-06C79.232 -3.8147e-06 87.5354 4.90515 87.784 13.5143H78.5361Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M105.386 23.1745H113.441L109.513 10.6612H109.413L105.386 23.1745ZM104.79 0.750832H114.187L127.462 36.4887H117.816L115.628 30.0819H103.248L101.011 36.4887H91.5142L104.79 0.750832Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M143.225 17.3685H149.44C152.323 17.3685 154.412 16.1672 154.412 12.9137C154.412 9.5601 152.274 8.2088 149.44 8.2088H143.225V17.3685ZM133.977 0.750832H150.832C157.445 0.750832 163.66 3.80407 163.66 12.2629C163.66 21.1225 158.638 24.5761 150.832 24.5761H143.225V36.4887H133.977V0.750832Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M171.055 0.750832H199.346V8.2088H180.303V14.4653H197.704V21.673H180.303V28.4802H199.842V36.4887H171.055V0.750832Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M56.3527 43.6325H64.7539V45.8472H59.099V47.7051H64.2665V49.8454H59.099V51.867H64.9015V54.2451H56.3527V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M68.6158 43.6325H71.4359L75.0975 50.1725H75.1272V43.6325H77.711V54.2451H74.8909L71.2293 47.6308H71.1996V54.2451H68.6158V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M81.7177 43.6325H90.119V45.8472H84.4639V47.7051H89.6316V49.8454H84.4639V51.867H90.2666V54.2451H81.7177V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M96.7419 48.2402H99.0454C99.8722 48.2402 100.315 47.7944 100.315 46.9918C100.315 46.2039 99.6951 45.8472 98.9272 45.8472H96.7419V48.2402ZM93.9957 43.6325H99.3702C101.231 43.6325 103.061 44.4798 103.061 46.6201C103.061 47.7646 102.515 48.8495 101.408 49.2807V49.3104C102.53 49.5781 102.855 50.8414 102.943 51.8521C102.973 52.2981 103.017 53.8587 103.386 54.2451H100.669C100.433 53.8884 100.389 52.848 100.359 52.5507C100.286 51.4805 100.108 50.3807 98.8237 50.3807H96.7419V54.2451H93.9957V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M116.345 54.2451H114.573L114.41 53.0858C113.687 54.1114 112.447 54.4681 111.472 54.4681C108.283 54.4681 106.216 52.0155 106.216 48.9388C106.216 45.8621 108.283 43.4096 111.472 43.4096C113.658 43.4096 115.99 44.5838 116.241 47.2445H113.495C113.406 46.3378 112.521 45.7878 111.413 45.7878C109.641 45.7878 108.962 47.3634 108.962 48.9388C108.962 50.5144 109.641 52.0898 111.413 52.0898C112.772 52.0898 113.687 51.4508 113.835 50.4847H111.915V48.4335H116.345V54.2451Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M124.912 50.2914V54.2451H122.166V50.2914L118.327 43.6325H121.442L123.539 47.9429L125.636 43.6325H128.751L124.912 50.2914Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M148.065 54.2451H146.293L146.131 53.0858C145.407 54.1114 144.167 54.4681 143.192 54.4681C140.003 54.4681 137.936 52.0155 137.936 48.9388C137.936 45.8621 140.003 43.4096 143.192 43.4096C145.378 43.4096 147.711 44.5838 147.962 47.2445H145.215C145.127 46.3378 144.241 45.7878 143.133 45.7878C141.362 45.7878 140.683 47.3634 140.683 48.9388C140.683 50.5144 141.362 52.0898 143.133 52.0898C144.492 52.0898 145.407 51.4508 145.555 50.4847H143.635V48.4335H148.065V54.2451Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M154.72 48.2402H157.024C157.851 48.2402 158.294 47.7944 158.294 46.9918C158.294 46.2039 157.673 45.8472 156.906 45.8472H154.72V48.2402ZM151.974 43.6325H157.349C159.209 43.6325 161.04 44.4798 161.04 46.6201C161.04 47.7646 160.493 48.8495 159.386 49.2807V49.3104C160.508 49.5781 160.833 50.8414 160.922 51.8521C160.951 52.2981 160.995 53.8587 161.365 54.2451H158.648C158.412 53.8884 158.367 52.848 158.338 52.5507C158.264 51.4805 158.087 50.3807 156.802 50.3807H154.72V54.2451H151.974V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M169.392 52.0898C171.163 52.0898 171.843 50.5144 171.843 48.9388C171.843 47.3634 171.163 45.7878 169.392 45.7878C167.62 45.7878 166.941 47.3634 166.941 48.9388C166.941 50.5144 167.62 52.0898 169.392 52.0898ZM169.392 43.4096C172.714 43.4096 174.589 45.8621 174.589 48.9388C174.589 52.0155 172.714 54.4681 169.392 54.4681C166.069 54.4681 164.194 52.0155 164.194 48.9388C164.194 45.8621 166.069 43.4096 169.392 43.4096Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M187.227 49.8604C187.227 52.9371 185.824 54.4681 182.635 54.4681C179.446 54.4681 178.044 52.9371 178.044 49.8604V43.6325H180.79V50.0239C180.79 51.3914 181.292 52.0898 182.635 52.0898C183.979 52.0898 184.481 51.3914 184.481 50.0239V43.6325H187.227V49.8604Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M193.932 48.5674H195.777C196.633 48.5674 197.253 48.2105 197.253 47.2445C197.253 46.2485 196.618 45.8472 195.777 45.8472H193.932V48.5674ZM191.185 43.6325H196.19C198.155 43.6325 200 44.5394 200 47.0511C200 49.6819 198.508 50.7075 196.19 50.7075H193.932V54.2451H191.185V43.6325Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M37.6075 33.559C37.525 33.8135 37.4386 34.0675 37.345 34.3207C33.6286 44.3773 22.4776 49.5151 12.488 45.7738C10.9279 45.1896 9.48719 44.4229 8.18048 43.5066C10.1149 45.1362 12.3507 46.4679 14.8462 47.4025C26.0051 51.5819 38.3911 46.3661 43.3942 35.7261L37.6075 33.559Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M25.9679 9.29758C26.917 9.65295 27.8217 10.0764 28.6794 10.5596L30.9353 4.45522C30.8716 4.43082 30.8087 4.40509 30.7448 4.38107C18.9626 -0.0314064 5.81081 6.02836 1.42751 17.8895C0.499174 20.4017 0.0391149 22.9755 0 25.5143C0.165193 23.92 0.530438 22.3211 1.11078 20.7506C4.82713 10.6941 15.9781 5.5563 25.9679 9.29758Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M32.9765 31.7893C32.8951 32.0554 32.808 32.3208 32.7103 32.585C29.9445 40.0689 21.6463 43.8924 14.212 41.1083C6.77787 38.3242 2.97976 29.9703 5.74548 22.4864C8.51112 15.0026 16.8094 11.179 24.2436 13.9631C25.1963 14.3198 26.0879 14.7694 26.9151 15.2955L28.1426 11.9739C27.2946 11.4829 26.3979 11.0521 25.4504 10.6973C16.2127 7.23783 5.93804 11.972 2.50137 21.2715C-0.935328 30.571 3.76742 40.9145 13.0052 44.3739C22.243 47.8336 32.5177 43.0994 35.9544 33.7999C36.0519 33.5361 36.1408 33.2713 36.2253 33.006L32.9765 31.7893Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_3">
+                    <rect width="200" height="54.4681" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="lg:col-span-3">
+              <p class="text-2xl">
+                Thank you for choosing Cape Energy Group – your trusted partner in innovative safety and operational
+                excellence.
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-4 lg:gap-16">
             <div>
-              <a href="/about" class="button">Learn More</a>
+              <h2 class="text-2xl text-white lg:text-3xl">Get in touch</h2>
+              <p>
+                We're here to help you with all your safety and operational needs. Get in touch with us and one of our
+                team members will be happy to help.
+              </p>
+            </div>
+            <div>
+              <h2 class="text-2xl text-white lg:text-3xl">Office location</h2>
+              <p>
+                Cape Energy Group Inc.<br />
+                [Insert Office Address here]
+              </p>
+            </div>
+            <div>
+              <h2 class="text-2xl text-white lg:text-3xl">Dispatch Number</h2>
+              <p>Call us at [phone number] for immediate assistance.</p>
+            </div>
+            <div>
+              <h2 class="text-2xl text-white lg:text-3xl">Email us</h2>
+              <p>
+                <a href="mailto:">[insert office email]</a>
+              </p>
+              <p><a href="mailto:">[insert dispatch email]</a></p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="mx-auto mb-6 h-1 w-20 bg-secondary-500"></div>
-        <h2 class="text-center">Our Services</h2>
-        <div class="mt-6 lg:mt-12">
-          <Carousel :items-to-show="2.5" :wrap-around="true">
-            <Slide v-for="service in services" :key="service">
-              <div class="carousel__item">{{ service }}</div>
-            </Slide>
-            <template #addons>
-              <Navigation />
-              <Pagination />
-            </template>
-          </Carousel>
-        </div>
-      </div>
-    </section>
-    <section class="dark">
-      <div class="container">
-        <p>
-          Cape Energy has been providing the Peace region oilfield safety equipment and services since the early 2000s.
-        </p>
-        <ul>
-          <li>H2S safety services</li>
-          <li>Supplied air trailers</li>
-          <li>Breathing apparatus, gas detection</li>
-          <li>Fit testing</li>
-          <li>Safety supervisor contractors</li>
-          <li>Course completions</li>
-          <li>Fracking and flowback operations</li>
-          <li>Drilling rigs</li>
-          <li>Telemetry equipment</li>
-          <li>Confined space entry</li>
-          <li>High angle rescue</li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <h2>Get in touch</h2>
+        <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/contact.jpg" />
       </div>
     </section>
   </main>
-  <footer class="bg-secondary-800 text-white">
-    <div class="container py-2">
-      <p class="mb-0 text-white">
-        <small>Cape Energy Services. Website by <a href="https://teleoinc.com" target="_blank">Teleo</a></small>
-      </p>
-    </div>
-  </footer>
 </template>
