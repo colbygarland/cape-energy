@@ -55,7 +55,7 @@
               Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
             </p>
             <ul class="list-disc pl-4">
-              <li>H2S Safey Services</li>
+              <li>H2S Safety Services</li>
               <li>Breathing Apparatus</li>
               <li>Gas Detection</li>
               <li>Preliminary Norms Testing</li>
@@ -73,18 +73,17 @@
           <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Advanced Equipment and Technology</h3></summary>
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
             <p>
-              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+              Leveraging cutting-edge technology and state-of-the-art equipment to enhance safety and operational
+              efficiency.
             </p>
             <ul class="list-disc pl-4">
-              <li>H2S Safey Services</li>
-              <li>Breathing Apparatus</li>
-              <li>Gas Detection</li>
-              <li>Preliminary Norms Testing</li>
+              <li>Supply Air Trailers</li>
+              <li>Gas Detection Equipment</li>
+              <li>OTIS (Onsite Technical Information Systems)</li>
             </ul>
             <ul class="list-disc pl-4">
-              <li>Fit Testing</li>
-              <li>Employ Safety Supervisors</li>
-              <li>Course Completions</li>
+              <li>Equipment Telemetry</li>
+              <li>Leading with Technology (State-of-the-Art Equipment)</li>
             </ul>
           </div>
         </details>
@@ -94,18 +93,16 @@
           <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Operational Support</h3></summary>
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
             <p>
-              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+              Providing expert support and specialized equipment for efficient and safe drilling, completion, and
+              maintenance operations.
             </p>
             <ul class="list-disc pl-4">
-              <li>H2S Safey Services</li>
-              <li>Breathing Apparatus</li>
-              <li>Gas Detection</li>
-              <li>Preliminary Norms Testing</li>
+              <li>Service Rigs (Completing the Wells)</li>
+              <li>Fracturing (Fracs)</li>
             </ul>
             <ul class="list-disc pl-4">
-              <li>Fit Testing</li>
-              <li>Employ Safety Supervisors</li>
-              <li>Course Completions</li>
+              <li>Flowback Operations</li>
+              <li>Drilling Rig Safety Equipment</li>
             </ul>
           </div>
         </details>
@@ -115,18 +112,14 @@
           <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Specialized Rescue and Entry Services</h3></summary>
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
             <p>
-              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+              Delivering specialized rescue operations and confined space entry solutions to address high-risk
+              scenarios.
             </p>
             <ul class="list-disc pl-4">
-              <li>H2S Safey Services</li>
-              <li>Breathing Apparatus</li>
-              <li>Gas Detection</li>
-              <li>Preliminary Norms Testing</li>
+              <li>Confined Space Entry / Breathing Apparatus</li>
             </ul>
             <ul class="list-disc pl-4">
-              <li>Fit Testing</li>
-              <li>Employ Safety Supervisors</li>
-              <li>Course Completions</li>
+              <li>High Angle Rescue</li>
             </ul>
           </div>
         </details>
