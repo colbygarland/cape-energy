@@ -11,7 +11,7 @@
           </p>
           <div class="flex gap-6">
             <a
-              href="#about"
+              href="#contact"
               class="font-headings block bg-white px-6 py-3 font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
               >Contact Us</a
             >
@@ -282,7 +282,7 @@
               </p>
             </div>
             <div>
-              <h2 class="text-2xl text-white lg:text-3xl">Dispatch Number</h2>
+              <h2 class="text-2xl text-white lg:text-3xl">Dispatch number</h2>
               <p>Call us at [phone number] for immediate assistance.</p>
             </div>
             <div>
