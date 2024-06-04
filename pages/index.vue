@@ -12,12 +12,12 @@
           <div class="flex gap-6">
             <a
               href="#contact"
-              class="font-headings block bg-white px-6 py-3 font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
+              class="block bg-white px-6 py-3 font-headings font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
               >Contact Us</a
             >
             <a
               href="#services"
-              class="font-headings block border border-white bg-transparent px-6 py-3 font-light leading-none text-white transition duration-200 hover:bg-white hover:text-gray-900"
+              class="block border border-white bg-transparent px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-white hover:text-gray-900"
               >Explore Our Services</a
             >
           </div>
@@ -56,14 +56,16 @@
             </p>
             <ul class="list-disc pl-4">
               <li>H2S Safety Services</li>
+              <li>Air Trailers</li>
               <li>Breathing Apparatus</li>
               <li>Gas Detection</li>
               <li>Preliminary Norms Testing</li>
+              <li>Benzene Monitoring</li>
+              <li>Confined Space Entry / Monitoring</li>
             </ul>
             <ul class="list-disc pl-4">
               <li>Fit Testing</li>
-              <li>Employ Safety Supervisors</li>
-              <li>Course Completions</li>
+              <li>Spark Watch</li>
             </ul>
           </div>
         </details>
@@ -78,11 +80,9 @@
             </p>
             <ul class="list-disc pl-4">
               <li>Supply Air Trailers</li>
-              <li>Gas Detection Equipment</li>
-              <li>OTIS (Onsite Technical Information Systems)</li>
+              <li>Stand Alone Gas Detection with Telemetry</li>
             </ul>
             <ul class="list-disc pl-4">
-              <li>Equipment Telemetry</li>
               <li>Leading with Technology (State-of-the-Art Equipment)</li>
             </ul>
           </div>
@@ -111,15 +111,12 @@
         >
           <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Specialized Rescue and Entry Services</h3></summary>
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-            <p>
-              Delivering specialized rescue operations and confined space entry solutions to address high-risk
-              scenarios.
-            </p>
+            <p>Delivering specialized rescue protocols and confined space entry solutions.</p>
             <ul class="list-disc pl-4">
               <li>Confined Space Entry / Breathing Apparatus</li>
             </ul>
             <ul class="list-disc pl-4">
-              <li>High Angle Rescue</li>
+              <li>Technical Rescue</li>
             </ul>
           </div>
         </details>
@@ -278,19 +275,18 @@
               <h2 class="text-2xl text-white lg:text-3xl">Office location</h2>
               <p>
                 Cape Energy Group Inc.<br />
-                [Insert Office Address here]
+                8710-112 Street, Grande Prairie, AB, T8V 5X4
               </p>
             </div>
             <div>
               <h2 class="text-2xl text-white lg:text-3xl">Dispatch number</h2>
-              <p>Call us at [phone number] for immediate assistance.</p>
+              <p>Call us at <a href="tel:7805324355">780-532-4355</a> for immediate assistance.</p>
             </div>
             <div>
               <h2 class="text-2xl text-white lg:text-3xl">Email us</h2>
               <p>
-                <a href="mailto:">[insert office email]</a>
+                <a href="mailto:hr@capeenergy.ca">hr@capeenergy.ca</a>
               </p>
-              <p><a href="mailto:">[insert dispatch email]</a></p>
             </div>
           </div>
         </div>
