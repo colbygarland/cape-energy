@@ -40,6 +40,23 @@
         </p>
       </div>
     </div>
+    <div class="container">
+      <div class="grid gap-4 lg:grid-cols-3 lg:gap-12">
+        <div class="lg:col-span-1">
+          <img src="https://place-hold.it/300x500" alt="" />
+        </div>
+        <div class="lg:col-span-2 lg:pt-12">
+          <h2>Darren and Chris Oilund</h2>
+          <p class="mb-2 text-2xl font-light text-secondary-700 lg:mb-6 lg:text-3xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est sit amet tellus scelerisque euismod quis
+            non dolor. Duis eget justo eu metus auctor semper at a ipsum. Nunc molestie arcu mauris, nec feugiat augue
+            aliquet in. Nullam iaculis, nunc vel iaculis convallis, odio nisi congue est, at bibendum tortor ligula id
+            purus. In ut lobortis lorem.
+          </p>
+          <p>[signature here?]</p>
+        </div>
+      </div>
+    </div>
   </section>
   <section id="services">
     <div class="container">
@@ -48,7 +65,9 @@
         open
         class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
       >
-        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Safety Services</h3></summary>
+        <summary class="relative marker:absolute">
+          <h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Safety Services</h3>
+        </summary>
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
           <p>
             Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
