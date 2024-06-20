@@ -41,19 +41,48 @@
       </div>
     </div>
     <div class="container">
-      <div class="grid gap-4 lg:grid-cols-3 lg:gap-12">
+      <div class="grid place-items-center gap-4 lg:grid-cols-3 lg:gap-12">
         <div class="lg:col-span-1">
-          <img src="https://place-hold.it/300x500" alt="" />
+          <img src="/assets/images/bio-photo.jpg" alt="Darren Oilund and Chris Oilund" />
         </div>
-        <div class="lg:col-span-2 lg:pt-12">
+        <div class="lg:col-span-2">
           <h2>Darren and Chris Oilund</h2>
-          <p class="mb-2 text-2xl font-light text-secondary-700 lg:mb-6 lg:text-3xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a est sit amet tellus scelerisque euismod quis
-            non dolor. Duis eget justo eu metus auctor semper at a ipsum. Nunc molestie arcu mauris, nec feugiat augue
-            aliquet in. Nullam iaculis, nunc vel iaculis convallis, odio nisi congue est, at bibendum tortor ligula id
-            purus. In ut lobortis lorem.
+          <p class="mb-2 font-light lg:mb-6">
+            Thank you for checking out our Bio for Cape Energy Group Inc. We are glad you are here and would like to
+            share a bit of our story. I, Darren Oilund, was born and raised in the Grande Prairie, AB and the Peace
+            Country has always been home. My wife Chris Oilund is originally from Saskatchewan and has lived in Grande
+            Prairie since the 1980's.
           </p>
-          <p>[signature here?]</p>
+          <p class="mb-2 font-light lg:mb-6">
+            Prior to Cape Energy Group Inc., we owned and operated an industrial medical and H2S safety company named
+            Cloak Medic and Safety Services from 2003 to 2018. In 2018 we had the opportunity to sell, and we thought we
+            would explore other opportunities. Little did we know how much we would miss the industry that we were so
+            much a part of for 15 years. Over the last few years, we have run into former employees who still to this
+            day refer to themselves as part of the “Cloak” family. The other question they had for us, “when are you
+            going to start up another company?” These conversations resonated with us and the fact that we really did
+            miss the industry gave us thoughts to ponder regarding starting another company in the H2S Safety space.
+          </p>
+          <p class="mb-2 font-light lg:mb-6">
+            From the beginning we have always focused on creating value in the people's lives who join our team. We
+            believe everyone should look forward coming to work each day, enjoying the people we work with. One of our
+            core believes is creating value in people, when they see their own value they become the best version of
+            themselves.
+          </p>
+          <p class="mb-2 font-light lg:mb-6">
+            We are back doing what we love and our core offering is H2S safety services where we have put together the
+            latest technology in our gear and new innovative technology in our electronics. We have not come back to the
+            oil and gas industry to merely exist, we have come back to thrive in every way!
+          </p>
+          <p class="mb-2 font-light lg:mb-6">
+            We have missed all of you and we are so grateful to be back serving people and this incredible energy
+            industry. Lastly, we have had questions regarding the name “Cape” and why we chose this name. Our old
+            company was “Cloak.” We do not wear a “Cloak” anymore, when you find your superpowers, you wear a Cape.
+          </p>
+          <p class="mb-2 font-light lg:mb-6">
+            Thank you for listening to our story, we look forward to meeting you very soon! We have missed this
+            industry, and we miss all of you. This is the reason we have come back to this industry. We are not here to
+            just make a profit; we are here because we care about people.
+          </p>
         </div>
       </div>
     </div>
