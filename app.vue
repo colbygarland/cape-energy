@@ -278,7 +278,7 @@ const toggleMenu = () => {
             </p>
           </div>
           <div>
-            <h2 class="text-2xl text-white lg:text-3xl">Dispatch number</h2>
+            <h2 class="text-2xl text-white lg:text-3xl">Office and 24 hour dispatch number</h2>
             <p>Call us at <a href="tel:7805324355">780-532-4355</a> for immediate assistance.</p>
           </div>
           <div>

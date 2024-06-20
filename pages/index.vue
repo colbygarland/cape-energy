@@ -78,11 +78,6 @@
             industry. Lastly, we have had questions regarding the name “Cape” and why we chose this name. Our old
             company was “Cloak.” We do not wear a “Cloak” anymore, when you find your superpowers, you wear a Cape.
           </p>
-          <p class="mb-2 font-light lg:mb-6">
-            Thank you for listening to our story, we look forward to meeting you very soon! We have missed this
-            industry, and we miss all of you. This is the reason we have come back to this industry. We are not here to
-            just make a profit; we are here because we care about people.
-          </p>
         </div>
       </div>
     </div>
@@ -122,6 +117,7 @@
           <ul class="list-disc pl-4">
             <li>Fit Testing</li>
             <li>Spark Watch</li>
+            <li>Technical Rescue</li>
           </ul>
         </div>
       </details>
@@ -135,44 +131,40 @@
             efficiency.
           </p>
           <ul class="list-disc pl-4">
-            <li>Supply Air Trailers</li>
-            <li>Stand Alone Gas Detection with Telemetry</li>
+            <li>
+              Our stand alone gas detection systems use proprietary technology in telemetry and interface controls. The
+              web-based customization easily integrates with client specific data systems allowing clients to see our
+              systems in real time on the same interface they are using.
+            </li>
           </ul>
           <ul class="list-disc pl-4">
-            <li>Leading with Technology (State-of-the-Art Equipment)</li>
-          </ul>
-        </div>
-      </details>
-      <details
-        class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
-      >
-        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Operational Support</h3></summary>
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-          <p>
-            Providing expert support and specialized equipment for efficient and safe drilling, completion, and
-            maintenance operations.
-          </p>
-          <ul class="list-disc pl-4">
-            <li>Service Rigs (Completing the Wells)</li>
-            <li>Fracturing (Fracs)</li>
-          </ul>
-          <ul class="list-disc pl-4">
-            <li>Flowback Operations</li>
-            <li>Drilling Rig Safety Equipment</li>
+            <li>
+              With our experience, we have put thought and customization into our equipment resulting in a user friendly
+              experience for our field staff and clients
+            </li>
+            <li>
+              Air Trailers all equipped with 6,000psi bottles to ensure maximum air capacity and less trailer refills
+              and change outs.
+            </li>
           </ul>
         </div>
       </details>
       <details
         class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
       >
-        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Specialized Rescue and Entry Services</h3></summary>
+        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Industries we Serve</h3></summary>
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-          <p>Delivering specialized rescue protocols and confined space entry solutions.</p>
+          <p>Providing expert support and specialized equipment for the energy sector:</p>
           <ul class="list-disc pl-4">
-            <li>Confined Space Entry / Breathing Apparatus</li>
+            <li>Drilling operations</li>
+            <li>Completion and work over operations</li>
+            <li>Flow back operations</li>
+            <li>Well optimization</li>
           </ul>
           <ul class="list-disc pl-4">
-            <li>Technical Rescue</li>
+            <li>Confined Space Entry</li>
+            <li>Plant turn around support</li>
+            <li>Plant construction support</li>
           </ul>
         </div>
       </details>
@@ -181,22 +173,16 @@
   <section id="industries">
     <div class="relative py-32 lg:pt-96">
       <div class="container relative z-50 text-white">
-        <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Industries we serve</h2>
+        <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Operational Support</h2>
         <p class="mb-12 lg:mb-24 lg:max-w-[650px]">
-          Providing comprehensive safety and operational support across a diverse range of industries including drilling
-          completions, workovers, plant turnarounds, construction safety, oil and gas production, energy sector,
-          industrial operations, chemical processing, and mining operations.
+          Providing expert support and specialized equipment for efficient and safe drilling, completion, and
+          maintenance operations.
         </p>
-        <ul class="list-disc grid-cols-3 pl-4 text-lg lg:grid lg:max-w-[750px]">
-          <li>Drilling Completions</li>
-          <li>Workovers</li>
-          <li>Plant Turnarounds</li>
-          <li>Construction Safety</li>
-          <li>Oil and Gas Production</li>
-          <li>Energy Sector</li>
-          <li>Industrial Operations</li>
-          <li>Chemical Processing</li>
-          <li>Mining Operations</li>
+        <ul class="list-disc grid-cols-1 pl-4 text-lg lg:grid lg:max-w-[750px]">
+          <li>Service Rigs (Completing the Wells)</li>
+          <li>Fracturing (Fracs)</li>
+          <li>Flowback Operations</li>
+          <li>Drilling Rig Safety Equipment</li>
         </ul>
       </div>
       <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/industries.jpg" alt="" />
@@ -209,7 +195,7 @@
         <div>
           <p class="lg:mg-16 mb-8 text-2xl font-light text-secondary-700 lg:text-3xl">
             At Cape Energy Group, our commitment is to deliver unparalleled safety and operational excellence through
-            innovative solutions and top-tier equipment.
+            innovative solutions and top-tier equipment and personnel.
           </p>
           <p class="text-xl">
             We prioritize the wellbeing of your team by employing the best talent and utilizing cutting-edge technology
@@ -219,7 +205,7 @@
           </p>
         </div>
         <div>
-          <img src="/assets/images/commitment.jpg" alt="" />
+          <img src="/assets/images/cape-energy-logo.png" alt="Cape Energy Group" />
         </div>
       </div>
     </div>
