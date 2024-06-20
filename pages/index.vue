@@ -132,15 +132,16 @@
           </p>
           <ul class="list-disc pl-4">
             <li>
-              Our stand alone gas detection systems use proprietary technology in telemetry and interface controls. The
-              web-based customization easily integrates with client specific data systems allowing clients to see our
-              systems in real time on the same interface they are using.
+              Our stand alone gas detection systems use industrial monitors combined with leading edge technology in
+              telemetry and interface controls. The web-based system easily integrates with client specific data systems
+              allowing clients to see our systems in real time with remote alarms and triggers.
             </li>
           </ul>
           <ul class="list-disc pl-4">
             <li>
               With our experience, we have put thought and customization into our equipment resulting in a user friendly
-              experience for our field staff and clients
+              experience for our field staff and clients. Connected telemetry gives our support team advanced insight
+              into an array of preventative actions such a when batteries need to be replaced prior to them going dead.
             </li>
             <li>
               Air Trailers all equipped with 6,000psi bottles to ensure maximum air capacity and less trailer refills
