@@ -86,6 +86,15 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Darren Oilund - CEO</p>
+        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Chris Oilund - CFO</p>
+        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Danielle Verge - Executive Assistant</p>
+        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Rob Verge - VP of Operations</p>
+      </div>
+    </div>
   </section>
   <section id="services">
     <div class="container">
