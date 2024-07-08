@@ -1,9 +1,9 @@
 <template>
-  <section>
+  <section id="hero">
     <div class="relative py-32 lg:pt-96">
       <div class="container relative z-50 text-white">
         <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">
-          Innovative Energy Solutions.<br />Leading the way to a safer Future.
+          Cape Energy Group <br />Innovative Energy Solutions. <br />Leading the way to a safer Future.
         </h1>
         <p class="mb-12 lg:max-w-96">
           For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
@@ -21,172 +21,7 @@
           >
         </div>
       </div>
-      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero.jpg" />
-    </div>
-  </section>
-  <section id="about">
-    <div class="container">
-      <h2>About us</h2>
-      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
-        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">
-          At Cape Energy Group Inc., we are driven by a singular mission - to provide innovative solutions that ensure
-          the wellbeing and success of your team in every environment.
-        </p>
-        <p>
-          Our dedicated team of experts works tirelessly to stay ahead of industry standards, continuously evolving and
-          adapting to meet the ever-changing needs of the energy sector. By leveraging the latest advancements in safety
-          equipment and protocols, we empower your workforce to operate with confidence and peace of mind, knowing that
-          their safety is our top priority.
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="grid place-items-center gap-4 lg:grid-cols-3 lg:gap-12">
-        <div class="lg:col-span-1">
-          <img src="/assets/images/bio-photo.jpg" alt="Darren Oilund and Chris Oilund" />
-        </div>
-        <div class="lg:col-span-2">
-          <h2>Darren and Chris Oilund</h2>
-          <p class="mb-2 font-light lg:mb-6">
-            Thank you for checking out our Bio for Cape Energy Group Inc. We are glad you are here and would like to
-            share a bit of our story. I, Darren Oilund, was born and raised in the Grande Prairie, AB and the Peace
-            Country has always been home. My wife Chris Oilund is originally from Saskatchewan and has lived in Grande
-            Prairie since the 1980's.
-          </p>
-          <p class="mb-2 font-light lg:mb-6">
-            Prior to Cape Energy Group Inc., we owned and operated an industrial medical and H2S safety company named
-            Cloak Medic and Safety Services from 2003 to 2018. In 2018 we had the opportunity to sell, and we thought we
-            would explore other opportunities. Little did we know how much we would miss the industry that we were so
-            much a part of for 15 years. Over the last few years, we have run into former employees who still to this
-            day refer to themselves as part of the “Cloak” family. The other question they had for us, “when are you
-            going to start up another company?” These conversations resonated with us and the fact that we really did
-            miss the industry gave us thoughts to ponder regarding starting another company in the H2S Safety space.
-          </p>
-          <p class="mb-2 font-light lg:mb-6">
-            From the beginning we have always focused on creating value in the people's lives who join our team. We
-            believe everyone should look forward coming to work each day, enjoying the people we work with. One of our
-            core believes is creating value in people, when they see their own value they become the best version of
-            themselves.
-          </p>
-          <p class="mb-2 font-light lg:mb-6">
-            We are back doing what we love and our core offering is H2S safety services where we have put together the
-            latest technology in our gear and new innovative technology in our electronics. We have not come back to the
-            oil and gas industry to merely exist, we have come back to thrive in every way!
-          </p>
-          <p class="mb-2 font-light lg:mb-6">
-            We have missed all of you and we are so grateful to be back serving people and this incredible energy
-            industry. Lastly, we have had questions regarding the name “Cape” and why we chose this name. Our old
-            company was “Cloak.” We do not wear a “Cloak” anymore, when you find your superpowers, you wear a Cape.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <h2>Our Team</h2>
-      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
-        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Darren Oilund - CEO</p>
-        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Chris Oilund - CFO</p>
-        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Danielle Verge - Executive Assistant</p>
-        <p class="text-2xl font-light text-secondary-700 lg:text-3xl">Rob Verge - VP of Operations</p>
-      </div>
-    </div>
-  </section>
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <details
-        open
-        class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
-      >
-        <summary class="relative marker:absolute">
-          <h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Safety Services</h3>
-        </summary>
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-          <p>
-            Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
-          </p>
-          <ul class="list-disc pl-4">
-            <li>H2S Safety Services</li>
-            <li>Air Trailers</li>
-            <li>Breathing Apparatus</li>
-            <li>Gas Detection</li>
-            <li>Preliminary Norms Testing</li>
-            <li>Benzene Monitoring</li>
-            <li>Confined Space Entry / Monitoring</li>
-          </ul>
-          <ul class="list-disc pl-4">
-            <li>Fit Testing</li>
-            <li>Spark Watch</li>
-            <li>Technical Rescue</li>
-          </ul>
-        </div>
-      </details>
-      <details
-        class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
-      >
-        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Advanced Equipment and Technology</h3></summary>
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-          <p>
-            Leveraging cutting-edge technology and state-of-the-art equipment to enhance safety and operational
-            efficiency.
-          </p>
-          <ul class="list-disc pl-4">
-            <li>
-              Our stand alone gas detection systems use industrial monitors combined with leading edge technology in
-              telemetry and interface controls. The web-based system easily integrates with client specific data systems
-              allowing clients to see our systems in real time with remote alarms and triggers.
-            </li>
-          </ul>
-          <ul class="list-disc pl-4">
-            <li>
-              With our experience, we have put thought and customization into our equipment resulting in a user friendly
-              experience for our field staff and clients. Connected telemetry gives our support team advanced insight
-              into an array of preventative actions such a when batteries need to be replaced prior to them going dead.
-            </li>
-            <li>
-              Air Trailers all equipped with 6,000psi bottles to ensure maximum air capacity and less trailer refills
-              and change outs.
-            </li>
-          </ul>
-        </div>
-      </details>
-      <details
-        class="border border-l-0 border-r-0 border-t-0 border-b-gray-400 px-4 py-4 open:bg-primary-900 open:text-white lg:px-12 lg:pt-12"
-      >
-        <summary><h3 class="mb-4 text-3xl lg:mb-12 lg:text-5xl">Industries we Serve</h3></summary>
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-          <p>Providing expert support and specialized equipment for the energy sector:</p>
-          <ul class="list-disc pl-4">
-            <li>Drilling operations</li>
-            <li>Completion and work over operations</li>
-            <li>Flow back operations</li>
-            <li>Well optimization</li>
-          </ul>
-          <ul class="list-disc pl-4">
-            <li>Confined Space Entry</li>
-            <li>Plant turn around support</li>
-            <li>Plant construction support</li>
-          </ul>
-        </div>
-      </details>
-    </div>
-  </section>
-  <section id="industries">
-    <div class="relative py-32 lg:pt-96">
-      <div class="container relative z-50 text-white">
-        <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Operational Support</h2>
-        <p class="mb-12 lg:mb-24 lg:max-w-[650px]">
-          Providing expert support and specialized equipment for efficient and safe drilling, completion, and
-          maintenance operations.
-        </p>
-        <ul class="list-disc grid-cols-1 pl-4 text-lg lg:grid lg:max-w-[750px]">
-          <li>Service Rigs (Completing the Wells)</li>
-          <li>Fracturing (Fracs)</li>
-          <li>Flowback Operations</li>
-          <li>Drilling Rig Safety Equipment</li>
-        </ul>
-      </div>
-      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/industries.jpg" alt="" />
+      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/team.jpg" />
     </div>
   </section>
   <section id="commitment">
@@ -206,7 +41,181 @@
           </p>
         </div>
         <div>
-          <img src="/assets/images/cape-energy-logo.png" alt="Cape Energy Group" />
+          <img src="/assets/images/trailer-and-guy.jpg" alt="Cape Energy Group" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+        <div class="rounded-md border border-gray-100 shadow">
+          <img
+            class="w-full rounded-t-md object-cover lg:h-80"
+            src="/assets/images/wireless-gas-detection.jpg"
+            alt="Wireless gas detection"
+          />
+          <div class="p-4">
+            <h3 class="text-xl text-secondary-700">H2S Safety Services</h3>
+            <p>
+              Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
+            </p>
+            <ul class="list-disc pl-4">
+              <li>H2S Safety Services</li>
+              <li>Air Trailers</li>
+              <li>Breathing Apparatus</li>
+              <li>Gas Detection</li>
+              <li>Preliminary Norms Testing</li>
+              <li>Benzene Monitoring</li>
+              <li>Confined Space Entry / Monitoring</li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>Fit Testing</li>
+              <li>Spark Watch</li>
+              <li>Technical Rescue</li>
+            </ul>
+          </div>
+        </div>
+        <div class="rounded-md border border-gray-100 shadow">
+          <img
+            class="w-full rounded-t-md object-cover lg:h-80"
+            src="/assets/images/industries-we-serve.jpg"
+            alt="Wireless gas detection"
+          />
+          <div class="p-4">
+            <h3 class="text-xl text-secondary-700">Advanced Equipment and Technology</h3>
+            <p>
+              Leveraging cutting-edge technology and state-of-the-art equipment to enhance safety and operational
+              efficiency.
+            </p>
+            <ul class="list-disc pl-4">
+              <li>
+                Our stand alone gas detection systems use industrial monitors combined with leading edge technology in
+                telemetry and interface controls. The web-based system easily integrates with client specific data
+                systems allowing clients to see our systems in real time with remote alarms and triggers.
+              </li>
+            </ul>
+            <ul class="list-disc pl-4">
+              <li>
+                With our experience, we have put thought and customization into our equipment resulting in a user
+                friendly experience for our field staff and clients. Connected telemetry gives our support team advanced
+                insight into an array of preventative actions such a when batteries need to be replaced prior to them
+                going dead.
+              </li>
+              <li>
+                Air Trailers all equipped with 6,000psi bottles to ensure maximum air capacity and less trailer refills
+                and change outs.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="rounded-md border border-gray-100 shadow">
+          <img
+            class="w-full rounded-t-md object-cover lg:h-80"
+            src="/assets/images/trailer-and-guy.jpg"
+            alt="Wireless gas detection"
+          />
+          <div class="p-4">
+            <h3 class="text-xl text-secondary-700">Confined Space Entry & Technical Rescue</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h2>About us</h2>
+      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+        <p class="text-2xl text-secondary-700 lg:text-3xl">
+          At Cape Energy Group, we aspire to be the go-to choice for H2S services in the oil and gas industry.
+        </p>
+        <p>
+          Our commitment lies in consistently delivering exceptional quality and value to our clients. We understand
+          that our success relies on our people—we actively attract, retain, and nurture top talent. By emphasizing the
+          right hiring decisions, providing exceptional training, and equipping our team with state-of-the-art
+          equipment, we drive excellence throughout our organization. But it doesn’t stop there. We want our people to
+          enjoy coming to work, looking forward to a new adventure each day. After all, people are our greatest asset.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+        <TeamMembers />
+      </div>
+    </div>
+  </section>
+  <section id="industries">
+    <div class="relative py-32 lg:pt-96">
+      <div class="container relative z-50 text-white">
+        <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">H2S Safety Services</h2>
+        <p class="mb-12 lg:mb-24 lg:max-w-[650px]">
+          Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments
+        </p>
+        <ul class="list-disc grid-cols-1 pl-4 text-lg lg:grid lg:max-w-[750px]">
+          <li>H2S Safety Services</li>
+          <li>Air Trailers</li>
+          <li>Breathing Apparatus</li>
+          <li>Gas Detection</li>
+          <li>Preliminary Norms Testing</li>
+          <li>Benzene Monitoring</li>
+        </ul>
+      </div>
+      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/industries.jpg" alt="" />
+    </div>
+  </section>
+  <section id="industries-we-serve">
+    <div class="container">
+      <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
+        <div>
+          <h2>Industries we serve</h2>
+          <p>Providing expert support and specialized equipment for the energy sector:</p>
+          <ul class="list-disc pl-4">
+            <li>Drilling operations</li>
+            <li>Completion and work over operations</li>
+            <li>Flow back operations</li>
+            <li>Well optimization</li>
+          </ul>
+          <ul class="list-disc pl-4">
+            <li>Confined Space Entry</li>
+            <li>Plant turn around support</li>
+            <li>Plant construction support</li>
+          </ul>
+        </div>
+        <div>
+          <img src="/assets/images/industries-we-serve.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="location">
+    <div class="container">
+      <h2>Our Locations</h2>
+      <div class="grid-cols-2 gap-8 lg:grid">
+        <div>
+          <p class="mb-2 font-bold">8710 112 Street, Grande Prairie, AB</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4558.868313491055!2d-118.83808892210614!3d55.1581799728699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5390917281bc19f5%3A0x54b15358a3f443ae!2s8710%20112%20St%2C%20Grande%20Prairie%2C%20AB%20T8V%205X4!5e0!3m2!1sen!2sca!4v1720406794308!5m2!1sen!2sca"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          <p class="mb-2 font-bold">#9 Collins Road, Dawson Creek, BC</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.442351592493!2d-120.19063652208446!3d55.75081757308348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53919ed4921d729d%3A0xb6b9d2320251466!2s9%20Collins%20Rd%2C%20Pouce%20Coupe%2C%20BC%20V0C%202C0!5e0!3m2!1sen!2sca!4v1720406944680!5m2!1sen!2sca"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
