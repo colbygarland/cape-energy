@@ -5,8 +5,10 @@
         <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">
           Cape Energy Group <br />Innovative Energy Solutions. <br />Leading the way to a safer Future.
         </h1>
-        <p class="mb-12 lg:max-w-96">
-          For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
+        <p class="mb-12 lg:max-w-lg">
+          For over two decades, Cape Energy Services' leadership group has diligently provided safety services to
+          oilfield operations across Western Canada. After a brief sabbatical, we've re-established—not out of
+          necessity, but driven by a genuine passion for this industry.
         </p>
         <div class="flex gap-6">
           <a
@@ -49,15 +51,15 @@
   <section id="services">
     <div class="container">
       <h2>Our Services</h2>
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 xl:grid-cols-4 xl:gap-4">
         <div class="rounded-md border border-gray-100 shadow">
           <img
             class="w-full rounded-t-md object-cover lg:h-80"
-            src="/assets/images/wireless-gas-detection.jpg"
+            src="/assets/images/industries-we-serve.jpg"
             alt="Wireless gas detection"
           />
           <div class="p-4">
-            <h3 class="text-xl text-secondary-700">H2S Safety Services</h3>
+            <h3 class="text-xl text-secondary-700">Safety Services</h3>
             <p>
               Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
             </p>
@@ -66,21 +68,14 @@
               <li>Air Trailers</li>
               <li>Breathing Apparatus</li>
               <li>Gas Detection</li>
-              <li>Preliminary Norms Testing</li>
-              <li>Benzene Monitoring</li>
-              <li>Confined Space Entry / Monitoring</li>
-            </ul>
-            <ul class="list-disc pl-4">
               <li>Fit Testing</li>
-              <li>Spark Watch</li>
-              <li>Technical Rescue</li>
             </ul>
           </div>
         </div>
         <div class="rounded-md border border-gray-100 shadow">
           <img
             class="w-full rounded-t-md object-cover lg:h-80"
-            src="/assets/images/industries-we-serve.jpg"
+            src="/assets/images/wireless-gas-detection.jpg"
             alt="Wireless gas detection"
           />
           <div class="p-4">
@@ -113,17 +108,32 @@
         <div class="rounded-md border border-gray-100 shadow">
           <img
             class="w-full rounded-t-md object-cover lg:h-80"
-            src="/assets/images/trailer-and-guy.jpg"
+            src="/assets/images/industries.jpg"
             alt="Wireless gas detection"
           />
           <div class="p-4">
-            <h3 class="text-xl text-secondary-700">Confined Space Entry & Technical Rescue</h3>
+            <h3 class="text-xl text-secondary-700">Plant Turnaround Safety Support</h3>
+            <p>
+              Technical Rescue Support, Confined Space and Entry / Monitoring, Spark watch, Benzene Testing ,
+              Preliminary NORMS Survey, Fit Testing.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-md border border-gray-100 shadow">
+          <img
+            class="w-full rounded-t-md object-cover lg:h-80"
+            src="/assets/images/rentals.jpg"
+            alt="Wireless gas detection"
+          />
+          <div class="p-4">
+            <h3 class="text-xl text-secondary-700">Rentals</h3>
+            <p>Personal monitors, OTIS Gas Detection Systems, SCBA and SABA.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="about">
+  <section id="about" class="bg-gray-50">
     <div class="container">
       <h2>About us</h2>
       <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
@@ -131,11 +141,12 @@
           At Cape Energy Group, we aspire to be the go-to choice for H2S services in the oil and gas industry.
         </p>
         <p>
-          Our commitment lies in consistently delivering exceptional quality and value to our clients. We understand
-          that our success relies on our people—we actively attract, retain, and nurture top talent. By emphasizing the
-          right hiring decisions, providing exceptional training, and equipping our team with state-of-the-art
-          equipment, we drive excellence throughout our organization. But it doesn’t stop there. We want our people to
-          enjoy coming to work, looking forward to a new adventure each day. After all, people are our greatest asset.
+          Our unwavering commitment lies in consistently delivering exceptional quality and unmatched value to our
+          esteemed clients. We recognize that our success hinges on our exceptional team—we actively attract, retain,
+          and nurture top-tier talent. By making strategic hiring decisions, offering exceptional training, and
+          equipping our team with cutting-edge tools, we propel excellence throughout our organization. But it doesn’t
+          end there. After all, our people are the heartbeat of our organization, eagerly anticipating a fresh adventure
+          each day as they step into work.
         </p>
       </div>
     </div>
@@ -146,30 +157,12 @@
       </div>
     </div>
   </section>
-  <section id="industries">
-    <div class="relative py-32 lg:pt-96">
-      <div class="container relative z-50 text-white">
-        <h2 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">H2S Safety Services</h2>
-        <p class="mb-12 lg:mb-24 lg:max-w-[650px]">
-          Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments
-        </p>
-        <ul class="list-disc grid-cols-1 pl-4 text-lg lg:grid lg:max-w-[750px]">
-          <li>H2S Safety Services</li>
-          <li>Air Trailers</li>
-          <li>Breathing Apparatus</li>
-          <li>Gas Detection</li>
-          <li>Preliminary Norms Testing</li>
-          <li>Benzene Monitoring</li>
-        </ul>
-      </div>
-      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/industries.jpg" alt="" />
-    </div>
-  </section>
+
   <section id="industries-we-serve">
     <div class="container">
       <div class="grid gap-4 lg:grid-cols-2 lg:gap-20">
-        <div>
-          <h2>Industries we serve</h2>
+        <div class="lg:mt-24">
+          <h2>Industries in the Oil & Gas Industry we serve</h2>
           <p>Providing expert support and specialized equipment for the energy sector:</p>
           <ul class="list-disc pl-4">
             <li>Drilling operations</li>
@@ -178,13 +171,12 @@
             <li>Well optimization</li>
           </ul>
           <ul class="list-disc pl-4">
-            <li>Confined Space Entry</li>
             <li>Plant turn around support</li>
             <li>Plant construction support</li>
           </ul>
         </div>
         <div>
-          <img src="/assets/images/industries-we-serve.jpg" alt="" />
+          <img src="/assets/images/industries-we-serve-2.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -200,7 +192,6 @@
             width="100%"
             height="450"
             style="border: 0"
-            allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -212,7 +203,6 @@
             width="100%"
             height="450"
             style="border: 0"
-            allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
