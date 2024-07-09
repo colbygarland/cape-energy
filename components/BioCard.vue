@@ -18,7 +18,7 @@ const isDarrenMorgan = props.name == 'Darren Morgan'
 <template>
   <div
     @click="dialog.showModal()"
-    class="cursor-pointer items-center bg-gray-50 shadow md:flex dark:border-gray-700 dark:bg-gray-800"
+    class="cursor-pointer items-center bg-white shadow md:flex dark:border-gray-700 dark:bg-gray-800"
   >
     <div class="md:flex-1">
       <img v-if="isDarrenOilund" class="w-full" src="/assets/images/darren-oilund.jpg" alt="Darren Oilund" />

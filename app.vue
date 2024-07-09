@@ -259,8 +259,8 @@ const toggleMenu = () => {
           </div>
           <div class="lg:col-span-3">
             <p class="text-2xl">
-              Thank you for choosing Cape Energy Group – your trusted partner in innovative safety and operational
-              excellence.
+              Thank you for choosing Cape Energy Group – your trusted H2S Safety partner in innovative safety and
+              operational excellence.
             </p>
           </div>
         </div>
@@ -275,8 +275,10 @@ const toggleMenu = () => {
           </div>
           <div>
             <h2 class="text-2xl text-white lg:text-3xl">Office and 24 hour dispatch number</h2>
-            <p>Call us at <a href="tel:7805324355" class="underline">780-532-4355</a> for immediate assistance.</p>
-            <p>24 hour dispatch number: <a href="tel:587-297-9099" class="underline">587-297-9099</a></p>
+            <p>
+              Call our office today at <a href="tel:7805324355" class="underline">780-532-4355</a> or 24 hour dispatch
+              number <a href="tel:587-297-9099" class="underline">587-297-9099</a>
+            </p>
           </div>
           <div>
             <h2 class="text-2xl text-white lg:text-3xl">Email us</h2>
