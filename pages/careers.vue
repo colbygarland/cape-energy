@@ -1,5 +1,5 @@
 <template>
-  <div class="relative py-32 lg:pt-96">
+  <div class="relative py-32 lg:pt-40">
     <div class="container relative z-50 text-white">
       <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Don your Cape and work with Us</h1>
       <p class="mb-12 lg:max-w-96">

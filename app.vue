@@ -125,9 +125,9 @@ const toggleMenu = () => {
           <nav>
             <ul class="flex gap-16">
               <MenuItem to="/" text="Home" />
-              <MenuItem to="/#about" text="About" />
-              <MenuItem to="/#services" text="Services" />
-              <MenuItem to="/#contact" text="Contact" />
+              <MenuItem to="/about" text="About" />
+              <MenuItem to="/services" text="Services" />
+              <MenuItem to="/contact" text="Contact" />
               <MenuItem to="/careers" text="Careers" />
               <MenuItem to="tel:587-297-9099" text="Call Dispatch" />
             </ul>
@@ -141,9 +141,9 @@ const toggleMenu = () => {
     <div class="absolute left-0 top-0 z-[49] h-full w-full bg-primary-950 opacity-95"></div>
     <ul class="relative z-50">
       <MenuItem to="/" text="Home" :callback="toggleMenu" />
-      <MenuItem to="/#about" text="About" :callback="toggleMenu" />
-      <MenuItem to="/#services" text="Services" :callback="toggleMenu" />
-      <MenuItem to="/#contact" text="Contact" :callback="toggleMenu" />
+      <MenuItem to="/about" text="About" :callback="toggleMenu" />
+      <MenuItem to="/services" text="Services" :callback="toggleMenu" />
+      <MenuItem to="/contact" text="Contact" :callback="toggleMenu" />
       <MenuItem to="/careers" text="Careers" :callback="toggleMenu" />
       <MenuItem to="tel:587-297-9099" text="Call Dispatch" />
     </ul>

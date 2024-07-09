@@ -1,0 +1,1 @@
+<template>advanced equipment</template>

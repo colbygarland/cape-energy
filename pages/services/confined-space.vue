@@ -1,0 +1,1 @@
+<template>confined space</template>
