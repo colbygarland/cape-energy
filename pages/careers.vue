@@ -7,7 +7,7 @@
       </p>
       <div class="flex gap-6">
         <a
-          href="#apply"
+          href="mailto:hr@capeenergy.ca"
           class="block bg-white px-6 py-3 font-headings font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
           >Apply Now</a
         >
@@ -15,7 +15,7 @@
     </div>
     <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero.jpg" />
   </div>
-  <div class="container" id="apply">
+  <!-- <div class="container" id="apply">
     <form>
       <div class="grid max-w-lg grid-cols-1 gap-6">
         <div>
@@ -79,5 +79,5 @@
         </div>
       </div>
     </form>
-  </div>
+  </div> -->
 </template>
