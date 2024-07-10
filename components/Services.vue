@@ -21,7 +21,7 @@
         <NuxtLink
           class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
           aria-label="Learn more about safety services"
-          to="/services/h2s-safety-services"
+          to="/services/safety-services"
           >Learn more</NuxtLink
         >
       </div>
@@ -79,7 +79,7 @@
         <NuxtLink
           class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
           aria-label="Learn more about plant turnaround and safety support"
-          to="/services/operational-support"
+          to="/services/safety-support"
           >Learn more</NuxtLink
         >
       </div>
@@ -93,6 +93,12 @@
       <div class="p-4">
         <h3 class="text-xl text-secondary-700">Rentals</h3>
         <p>Personal monitors, OTIS Gas Detection Systems, SCBA and SABA.</p>
+        <NuxtLink
+          class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
+          aria-label="Learn more about rentals"
+          to="/services/rentals"
+          >Learn more</NuxtLink
+        >
       </div>
     </div>
   </div>
