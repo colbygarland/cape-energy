@@ -6,9 +6,9 @@
           Cape Energy Group <br />Innovative Energy Solutions. <br />Leading the way to a safer Future.
         </h1>
         <p class="mb-12 lg:max-w-lg">
-          For over two decades, Cape Energy Services' leadership group has diligently provided safety services to
-          oilfield operations across Western Canada. After a brief sabbatical, we've re-established—not out of
-          necessity, but driven by a genuine passion for this industry.
+          For over two decades, Cape Energy Group's leadership has diligently provided safety services to oilfield
+          operations across Western Canada. After a brief sabbatical, we've re-established—not out of necessity, but
+          driven by a genuine passion for this industry.
         </p>
         <div class="flex gap-6">
           <a
