@@ -15,7 +15,7 @@
     </div>
     <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero.jpg" />
   </div>
-  <!-- <div class="container" id="apply">
+  <div class="container" id="apply">
     <form>
       <div class="grid max-w-lg grid-cols-1 gap-6">
         <div>
@@ -79,5 +79,5 @@
         </div>
       </div>
     </form>
-  </div> -->
+  </div>
 </template>

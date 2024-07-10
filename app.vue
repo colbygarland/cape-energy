@@ -126,7 +126,17 @@ const toggleMenu = () => {
             <ul class="flex gap-16">
               <MenuItem to="/" text="Home" />
               <MenuItem to="/about" text="About" />
-              <MenuItem to="/services" text="Services" />
+              <div class="group relative">
+                <MenuItem to="/services" text="Services" />
+                <ul
+                  class="l-0 b-0 invisible absolute z-10 min-w-64 bg-primary-900 px-6 opacity-0 shadow-xl transition duration-150 group-hover:visible group-hover:opacity-100"
+                >
+                  <MenuItem to="/services/h2s-safety-services" text="H2S Safety Services" />
+                  <MenuItem to="/services/advanced-equipment" text="Advanced Equipment & Technology" />
+                  <MenuItem to="/services/confined-space" text="Confined Space Entry" />
+                  <MenuItem to="/services/operational-support" text="Operational Support" />
+                </ul>
+              </div>
               <MenuItem to="/contact" text="Contact" />
               <MenuItem to="/careers" text="Careers" />
               <MenuItem to="tel:587-297-9099" text="Call Dispatch" />

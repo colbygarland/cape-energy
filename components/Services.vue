@@ -1,7 +1,3 @@
-<script setup>
-defineProps(['learnMore'])
-</script>
-
 <template>
   <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 xl:grid-cols-4 xl:gap-4">
     <div class="rounded-md border border-gray-100 shadow">
@@ -23,7 +19,6 @@ defineProps(['learnMore'])
           <li>Fit Testing</li>
         </ul>
         <NuxtLink
-          v-if="learnMore"
           class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
           aria-label="Learn more about safety services"
           to="/services/h2s-safety-services"
@@ -62,7 +57,6 @@ defineProps(['learnMore'])
           </li>
         </ul>
         <NuxtLink
-          v-if="learnMore"
           class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
           aria-label="Learn more about advanced equipment and technology"
           to="/services/advanced-equipment"
@@ -83,7 +77,6 @@ defineProps(['learnMore'])
           NORMS Survey, Fit Testing.
         </p>
         <NuxtLink
-          v-if="learnMore"
           class="mt-4 inline-block bg-primary-700 px-6 py-3 font-headings font-light leading-none text-white transition duration-200 hover:bg-primary-900"
           aria-label="Learn more about plant turnaround and safety support"
           to="/services/operational-support"
