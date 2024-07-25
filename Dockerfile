@@ -1,20 +1,12 @@
-FROM node:20 AS build
+FROM node:22 AS build
 WORKDIR /app
 COPY . .
-RUN yarn install && yarn generate
+RUN yarn install && yarn build
 
-FROM joseluisq/static-web-server:2.32.0 AS sws
-
-FROM scratch
-
-COPY --from=sws /static-web-server /
-COPY --from=build /app/.output/public/ /public/
-
-EXPOSE 80
-
-STOPSIGNAL SIGQUIT
-
-ENTRYPOINT ["/static-web-server", "-g", "info", "--log-remote-address"]
+FROM gcr.io/distroless/nodejs22-debian12
+COPY --from=build /app/.output/ /app/
+EXPOSE 3000
+CMD ["/app/server/index.mjs"]
 
 
 
