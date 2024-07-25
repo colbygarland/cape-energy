@@ -7,7 +7,7 @@
         alt="Wireless gas detection"
       />
       <div class="p-4">
-        <h3 class="text-xl text-secondary-700">Safety Services</h3>
+        <h3 class="text-xl text-secondary-700">H2S Safety Services</h3>
         <p>
           Ensuring comprehensive safety protocols and equipment to protect your workforce in hazardous environments.
         </p>
