@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts', 'nuxt-gtag'],
 
   googleFonts: {
     families: {
@@ -19,8 +19,14 @@ export default defineNuxtConfig({
     },
   },
 
+  gtag: {
+    id: 'G-3T918ZR7PE',
+  },
+
   app: {
     head: {
+      title: 'Cape Energy Group - Innovative Energy Solutions',
+
       bodyAttrs: {
         class: 'font-primary',
       },

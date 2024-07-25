@@ -3,7 +3,8 @@
     <div class="container relative z-50 text-white">
       <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Don your Cape and work with Us</h1>
       <p class="mb-12 lg:max-w-96">
-        For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
+        For more than two decades, Cape Energy Group's leadership has been delivering safety services across Western
+        Canada.
       </p>
       <div class="flex gap-6">
         <a
