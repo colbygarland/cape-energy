@@ -56,6 +56,7 @@ const toggleMenu = () => {
                   <MenuItem to="/services/safety-services" text="H2S Safety Services" />
                   <MenuItem to="/services/advanced-equipment" text="Advanced Equipment & Technology" />
                   <MenuItem to="/services/safety-support" text="Plant Turnaround Safety Support" />
+                  <MenuItem to="/services/hse-advisors" text="HSE Advisors" />
                   <MenuItem to="/services/rentals" text="Rentals" />
                 </ul>
               </div>
