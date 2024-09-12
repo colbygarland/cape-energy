@@ -36,6 +36,42 @@
       />
     </div>
   </section>
+  <section class="container">
+    <div class="mb-4 grid grid-cols-1 gap-8 lg:mb-16 lg:grid-cols-3 lg:gap-16">
+      <img src="/assets/images/tresel.jpg" alt="Otis Instruments Tresel Telemetry" />
+      <div class="lg:col-span-2">
+        <h2>Telemetry</h2>
+        <h3 class="mb-4 text-xl font-bold">Otis Instruments Tresel Telemetry</h3>
+        <p>
+          Tresel Telemetry offers real-time industrial telemetry solutions designed to enhance operational efficiency
+          and safety. Here are some key features:
+        </p>
+        <ul class="mb-4 mt-4">
+          <li>
+            <span class="font-bold text-primary-700">Real-Time Data Monitoring:</span> Provides immediate visibility of
+            operation-critical data from industrial equipment.
+          </li>
+          <li>
+            <span class="font-bold text-primary-700">Broad Compatibility:</span> Supports most common IoT protocols and
+            integrates with existing hardware, sensors, and controllers.
+          </li>
+          <li>
+            <span class="font-bold text-primary-700">Situational Awareness:</span> Customizable dashboards, alerting,
+            and reporting features to improve situational awareness and decision-making.
+          </li>
+          <li>
+            <span class="font-bold text-primary-700">Remote Monitoring:</span> Enables remote monitoring of various
+            parameters such as flow rates, pressures, temperatures, and levels.
+          </li>
+          <li>
+            <span class="font-bold text-primary-700">User-Friendly Platform:</span> Web-based platform accessible from
+            any device, with features like historical data records, customizable charts, and exportable reports.
+          </li>
+        </ul>
+        <p>View more at <a class="text-primary font-bold" href="https://tresel.io" target="_blank">tresel.io</a></p>
+      </div>
+    </div>
+  </section>
   <Callout
     body="At Cape Energy Group, we are committed to enhancing safety and efficiency through innovative technology and superior equipment solutions. Trust us to deliver industry- leading services that prioritize safety, streamline operations, and exceed expectations. Experience the difference with Cape Energy Group—where advanced technology meets uncompromising safety standards."
   />
