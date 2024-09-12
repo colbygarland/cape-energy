@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <div class="relative py-32 lg:pt-96">
-      <div class="container relative z-50 text-white text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
+      <div class="container relative z-50 text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
         <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">
           Cape Energy Group <br />Innovative Energy Solutions. <br />Leading the way to a safer Future.
         </h1>
@@ -24,6 +24,7 @@
         </div>
       </div>
       <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero-2.jpg" />
+      <div class="absolute left-0 top-0 z-[11] h-full w-full bg-black opacity-20"></div>
     </div>
   </section>
   <section id="commitment">

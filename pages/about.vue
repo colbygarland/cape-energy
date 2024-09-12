@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <div class="relative py-32 lg:pt-40">
-      <div class="container relative z-50 text-white">
+      <div class="container relative z-50 text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
         <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">About Cape Energy</h1>
         <p class="mb-12 lg:max-w-lg">
           For over two decades, Cape Energy Services' leadership group has diligently provided safety services to
@@ -9,7 +9,8 @@
           necessity, but driven by a genuine passion for this industry.
         </p>
       </div>
-      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/team.jpg" />
+      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero-2.jpg" />
+      <div class="absolute left-0 top-0 z-[11] h-full w-full bg-black opacity-20"></div>
     </div>
   </section>
   <section>
