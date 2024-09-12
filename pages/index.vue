@@ -23,7 +23,7 @@
           >
         </div>
       </div>
-      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/team.jpg" />
+      <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero-2.jpg" />
     </div>
   </section>
   <section id="commitment">
