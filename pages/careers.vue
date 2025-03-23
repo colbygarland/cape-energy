@@ -1,19 +1,20 @@
 <template>
-  <div class="relative py-32 lg:pt-96">
-    <div class="container relative z-50 text-white">
+  <div class="relative py-32 lg:pt-40">
+    <div class="container relative z-50 text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
       <h1 class="mb-20 text-4xl font-normal leading-snug text-white lg:text-6xl">Don your Cape and work with Us</h1>
       <p class="mb-12 lg:max-w-96">
-        For more than two decades, Cape Energy Services has been delivering safety services across Western Canada.
+        For more than two decades, Cape Energy Group's leadership has been delivering safety services across Western
+        Canada.
       </p>
       <div class="flex gap-6">
         <a
-          href="#apply"
+          href="mailto:hr@capeenergy.ca"
           class="block bg-white px-6 py-3 font-headings font-light leading-none text-gray-900 transition duration-200 hover:bg-gray-300"
           >Apply Now</a
         >
       </div>
     </div>
-    <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/hero.jpg" />
+    <img class="absolute left-0 top-0 z-10 h-full w-full object-cover" src="/assets/images/careers.jpg" />
   </div>
   <div class="container" id="apply">
     <form>
